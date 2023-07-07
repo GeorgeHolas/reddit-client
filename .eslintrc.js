@@ -14,5 +14,6 @@ module.exports = {
     'react/prop-types': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'no-param-reassign': 'off',
+    'prefer-destructuring': 'off',
   },
 };
