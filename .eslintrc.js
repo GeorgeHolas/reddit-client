@@ -15,5 +15,6 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'no-param-reassign': 'off',
     'prefer-destructuring': 'off',
+    'react/no-unescaped-entities': 0,
   },
 };
