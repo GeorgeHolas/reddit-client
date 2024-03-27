@@ -1,27 +1,64 @@
-### Clone of reddit using react/readux
+# Clone of reddit using react/readux
 
+Reddit clone is a React app that allows users to browse and search Reddit posts and comments.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Browse posts from default or selected subreddits
+- Search posts by keyword
+- View comments for each post
+- Loading and error handling
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The app uses Reddit's API to fetch posts and comments.
 
-### `npm test`
+### Built with:
 
-Launches the test runner in the interactive watch mode.<br />
+- **React** - Components, hooks, context, etc.
+- **Redux** - Global state management
+- **React-Redux** - Connects React components to Redux
+- **Redux Toolkit** - Simplifies Redux code
+- **React Router** - Routing and navigation
 
+### Main Features:
 
-### `npm run build`
+- **SubredditList** - Displays a list of subreddits fetched from Reddit's API
+- **PostList** - Shows a list of posts from the selected subreddit
+- **SearchBar** - Enables searching the list of posts by keyword
+- **Post** - Represents a single Reddit post
+- **CommentList** - Shows the comments for a post, fetched lazily
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React hooks are used for stateful logic throughout. Redux manages the global state of posts, comments, subreddits, etc.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Usage
 
+To run the app locally:
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Start the dev server using `npm start`
+
+The app will be available at localhost:3000
+
+Select a subreddit from the sidebar to view posts. Use the search bar to filter posts by keyword. Click a post's comments icon to fetch and show comments.
+
+Deployed by netlify https://app.netlify.com/sites/reddit-clientapp/overview
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes and commit them
+4. Push your branch and open a pull request
+
+Please make sure all code passes existing tests and linting. Add additional tests for new features as needed.
+
+## License
+
+This project is open source and available under the MIT License.
+
+Feel free to reach out if you have any questions or need further clarification on any part of the project
 
