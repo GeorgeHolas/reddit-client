@@ -43,7 +43,7 @@ The app will be available at localhost:3000
 
 Select a subreddit from the sidebar to view posts. Use the search bar to filter posts by keyword. Click a post's comments icon to fetch and show comments.
 
-Deployed by netlify https://app.netlify.com/sites/reddit-clientapp/overview](https://reddit-clientapp.netlify.app
+Deployed by netlify https://reddit-clientapp.netlify.app
 
 ## Contributing
 
